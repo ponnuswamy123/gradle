@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [CucumberTestReport]">
+  <test name="CucumberTestxml(failed)">
+    <classes>
+      <class name="Login.runnerclass">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="feature"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- Login.runnerclass -->
+    </classes>
+  </test> <!-- CucumberTestxml(failed) -->
+</suite> <!-- Failed suite [CucumberTestReport] -->

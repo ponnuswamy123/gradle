@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="CucumberTestReport">
+<listeners>
+<listener class-name="Extentreport.Listener"></listener>
+	</listeners>
+	<test name="CucumberTestxml">
+	
+		<classes>
+			<!-- <class name="Extentreport.Listener" /> -->
+			<class name="Login.runnerclass" />	
+			<class name="fetch.runnerclass" />
+		</classes>
+	</test>
+</suite>
