@@ -19,7 +19,7 @@ configurations{
 selenium
 } 
 dependencies {
-    
+     
     testCompile group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '2.53.1'
 	testCompile 'junit:junit:3.8.1'
 	testCompile group: 'org.seleniumhq.selenium', name: 'selenium-server', version: '2.53.1'
@@ -40,6 +40,7 @@ dependencies {
 	testCompile group: 'info.cukes', name: 'gherkin', version: '2.12.2'
 	testCompile group: 'org.mockito', name: 'mockito-all', version: '2.0.2-beta'
 	testCompile group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '2.53.1'
+	testCompile 'junit:junit:3.8.1'
 	testCompile group: 'org.testng', name: 'testng', version: '6.9.10'
 	testCompile group: 'com.google.gdata', name: 'core', version: '1.47.1'
 	testCompile group: 'com.aventstack', name: 'extentreports', version: '3.0.1'
@@ -49,6 +50,7 @@ dependencies {
 	testCompile group: 'activation', name: 'activation', version: '1.0.2'
 	testCompile group: 'org.apache.logging.log4j', name: 'log4j-core', version: '2.7'
 	testCompile group: 'com.vimalselvam', name: 'cucumber-extentsreport', version: '1.1.1'
+		
 }
 test{
 
