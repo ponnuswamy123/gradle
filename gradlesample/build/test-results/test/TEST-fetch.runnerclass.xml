@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="fetch.runnerclass" tests="1" skipped="0" failures="0" errors="0" timestamp="2018-10-17T11:24:40" hostname="FULL410-WIN" time="14.579">
+<testsuite name="fetch.runnerclass" tests="1" skipped="0" failures="0" errors="0" timestamp="2018-10-18T12:13:29" hostname="FULL410-WIN" time="11.133">
   <properties/>
-  <testcase name="feature[0](Fetch FC Account)" classname="fetch.runnerclass" time="14.579"/>
+  <testcase name="feature[0](Fetch FC Account)" classname="fetch.runnerclass" time="11.133"/>
   <system-out><![CDATA[View in :
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
