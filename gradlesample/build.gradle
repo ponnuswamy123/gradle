@@ -20,7 +20,7 @@ selenium
 } 
 dependencies {
     
-     testCompile group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '2.53.1'
+    testCompile group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '2.53.1'
 	testCompile 'junit:junit:3.8.1'
 	testCompile group: 'org.seleniumhq.selenium', name: 'selenium-server', version: '2.53.1'
 
