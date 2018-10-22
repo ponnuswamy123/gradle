@@ -1,15 +1,22 @@
-package Login;
+package login;
 
+import java.io.File;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 
+import com.relevantcodes.extentreports.ExtentReports;
+import com.relevantcodes.extentreports.ExtentTest;
+
 public class logindata {
 	public static WebDriver driver;
-	
+	public static ExtentReports extent;
+	public static ExtentTest test;
 	static {
+		extent = new ExtentReports(System.getProperty("user.dir") + "/test-output/Formcreatorfield.html", true);
+		extent.loadConfig(new File(System.getProperty("user.dir") + "\\extent-config.xml"));
 		System.setProperty("webdriver.chrome.driver",
 				"C:\\Users\\User\\Downloads\\chromedriver_win32\\chromedriver.exe");
 		ChromeOptions options = new ChromeOptions();
